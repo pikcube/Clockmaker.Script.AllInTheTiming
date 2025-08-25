@@ -1,0 +1,574 @@
+[
+  {
+    "id": "_meta",
+    "name": "All In The Timing",
+    "author": "Pikcube"
+  },
+  {
+    "id": "unity_allinthetiming",
+    "edition": "",
+    "name": "Unity",
+    "firstNightReminder": "Show Unity a player who can be safely executed today without ending the game, triggering an on death ability, or triggering an on nomination ability. Mark them.",
+    "firstNight": 34.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Sleepy"
+    ],
+    "setup": false,
+    "ability": "On Night 1, learn a player that is safe to execute today.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/unity_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/unity_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "couple_allinthetiming",
+    "edition": "",
+    "name": "Couple",
+    "otherNightReminder": "On Night 2, wake each couple and show them another couple, mark the pairs. If the player they learn is dead, they die.",
+    "otherNight": 17.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Coupled",
+      "Coupled"
+    ],
+    "setup": true,
+    "ability": "On Night 2, wake and learn who else is Couple. Each night*, you die if they died. [2 Couple]",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/couple_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/couple_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "trigon_allinthetiming",
+    "edition": "",
+    "name": "Trigon",
+    "otherNightReminder": "On Night 3, wake and show Trigon 3 characters who are either out of play or dead. If multiple of a character are in play, they must all be dead.",
+    "otherNight": 18.0,
+    "team": "townsfolk",
+    "reminders": [],
+    "setup": false,
+    "ability": "On Night 3, you learn 3 characters who aren't alive.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/trigon_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/trigon_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "foresight_allinthetiming",
+    "edition": "",
+    "name": "Foresight",
+    "otherNightReminder": "On Night 4, wake and show them 4 players who aren't the demon. Mark them.",
+    "otherNight": 19.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Not the demon",
+      "Not the demon",
+      "Not the demon",
+      "Not the demon"
+    ],
+    "setup": false,
+    "ability": "On Night 4, learn 4 players who aren't the demon.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/foresight_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/foresight_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "judgment_allinthetiming",
+    "edition": "",
+    "name": "Judgment",
+    "firstNightReminder": "Show Judgement a player. Mark them. If that player is executed tomorrow, their team loses.",
+    "otherNightReminder": "Show Judgement a player. Mark them. If that player is executed tomorrow, their team loses.",
+    "firstNight": 32.0,
+    "otherNight": 15.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Judged"
+    ],
+    "setup": false,
+    "ability": "Each night, learn a player. If executed tomorrow, their team loses.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/judgment_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/judgment_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "totality_allinthetiming",
+    "edition": "",
+    "name": "Totality",
+    "firstNightReminder": "Wake totality to choose a player, mark them (even if they are drunk or poisoned).",
+    "otherNightReminder": "Wake totality to choose a player, mark their choice (even if they are drunk or poisoned). If totality died, instead show them how many players are evil.",
+    "firstNight": 30.0,
+    "otherNight": 16.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Total",
+      "Total",
+      "Total",
+      "Total",
+      "Total",
+      "Total",
+      "Total",
+      "Total",
+      "Total",
+      "Total",
+      "Total",
+      "Total",
+      "Total",
+      "Total",
+      "Total"
+    ],
+    "setup": false,
+    "ability": "Each night, choose a player. When you die, wake and learn how many chosen players are evil.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/totality_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/totality_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "registrar_allinthetiming",
+    "edition": "",
+    "name": "Registrar",
+    "firstNightReminder": "Wake Registrar to pick a minion on script. If they are in play, point to the player with their ability. If they are out of play, point to any player. Mark which player was registered.",
+    "otherNightReminder": "Wake Registrar to pick a minion on script. If they are in play, point to the player with their ability. If they are out of play, point to any player. Mark which player was registered.",
+    "firstNight": 31.0,
+    "otherNight": 20.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Registered",
+      "Registered",
+      "Registered",
+      "Registered",
+      "Registered"
+    ],
+    "setup": true,
+    "ability": "Each night, choose a minion character, learn which player has their ability. If no one, learn false information. [+1 Minion]",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/registrar_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/registrar_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "herbalist_allinthetiming",
+    "edition": "",
+    "name": "Herbalist",
+    "otherNightReminder": "Wake the Herbalist to choose a player. If they are good, mark them as drunk. Mark the previously chosen player as herbed.",
+    "otherNight": 4.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Drunk",
+      "Herbed"
+    ],
+    "setup": false,
+    "ability": "Each night* choose a player. Good players are drunk today, but are sober and healthy tomorrow.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/herbalist_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/herbalist_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "coach_allinthetiming",
+    "edition": "",
+    "name": "Coach",
+    "otherNightReminder": "Wake Trainer to choose two players. Mark them as coached. As long as both are sober and healthy, neither can die tonight.",
+    "otherNight": 5.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Coached",
+      "Coached"
+    ],
+    "setup": false,
+    "ability": "Each night* choose two players (not yourself). They can't die tonight if both are sober and healthy.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/coach_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/coach_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "maestro_allinthetiming",
+    "edition": "",
+    "name": "Maestro",
+    "otherNightReminder": "Wake the Maestro to choose a player. If that player would wake tonight, show them any player who wakes between Mastro and the chosen player. If they won't wake until dawn, show them any waking player. If Mastro is the only player who wakes before them, then show them anyone.",
+    "otherNight": 2.0,
+    "team": "townsfolk",
+    "reminders": [],
+    "setup": true,
+    "ability": "Each night*, choose a player, learn a player who wakes before them but after you. If no one, learn false information. [You wake first]",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/maestro_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/maestro_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "silencer_allinthetiming",
+    "edition": "",
+    "name": "Silencer",
+    "firstNightReminder": "Wake the Silencer and ask them choose a player. If they do, mark them as silenced. Wake that player and inform them that Silencer has picked them.",
+    "otherNightReminder": "If they haven't used their ability, wake the Silencer and ask them choose a player. If they do, mark them as silenced. Wake that player and inform them that Silencer has picked them.",
+    "firstNight": 33.0,
+    "otherNight": 11.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Silenced"
+    ],
+    "setup": false,
+    "ability": "Once per game, at night, choose an alive player. A townsfolk, if chosen, permanently loses their ability.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/silencer_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/silencer_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "flash_allinthetiming",
+    "edition": "",
+    "name": "Flash",
+    "otherNightReminder": "If Flash died tonight, wake them and show them one ability for every two living players. These abilities can be good or evil. Mark each player shown as exposed.",
+    "otherNight": 14.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Exposed",
+      "Exposed",
+      "Exposed",
+      "Exposed",
+      "Exposed",
+      "Exposed",
+      "Exposed"
+    ],
+    "setup": false,
+    "ability": "If you die at night, learn one in play character for every two living players.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/flash_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/flash_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "writer_allinthetiming",
+    "edition": "",
+    "name": "Writer",
+    "otherNightReminder": "If the Writer stopped their team from losing yesterday or today, wake and show them which character would have ended the game. Mark the writer with \"No Ability\" and mark the shown character as \"Rewritten\".",
+    "otherNight": 21.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Rewritten",
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "The 1st time your team would lose, don't. That night, learn why.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/writer_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/writer_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "denial_allinthetiming",
+    "edition": "",
+    "name": "Denial",
+    "team": "outsider",
+    "reminders": [
+      "Aliven't"
+    ],
+    "setup": false,
+    "ability": "You register as alive while dead. If you are executed you lose this ability. You are sober and healthy.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/denial_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/denial_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "nightmare_allinthetiming",
+    "edition": "",
+    "name": "Nightmare",
+    "firstNightReminder": "Nightmare may need to do something",
+    "otherNightReminder": "Nightmare may need to do something",
+    "firstNight": 29.0,
+    "otherNight": 13.0,
+    "team": "outsider",
+    "reminders": [
+      "Nightmare",
+      "Nightmare",
+      "Nightmare"
+    ],
+    "setup": false,
+    "ability": "You don't know what your ability is. Each day, privately guess what it is to learn how accurate you are.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/nightmare_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/nightmare_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "vengeance_allinthetiming",
+    "edition": "",
+    "name": "Vengeance",
+    "team": "outsider",
+    "reminders": [
+      "Enemy"
+    ],
+    "setup": false,
+    "ability": "You don't know your alignment. Each time you're nominated, your alignment opposes your nominator. Bad things happen if you nominate yourself.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/vengeance_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/vengeance_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "despair_allinthetiming",
+    "edition": "",
+    "name": "Despair",
+    "otherNightReminder": "If only 3 players live, the game ends.",
+    "otherNight": 12.0,
+    "team": "outsider",
+    "reminders": [],
+    "setup": false,
+    "ability": "When only 3 players live, including the demon, evil wins, even if you're dead.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/despair_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/despair_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "apathy_allinthetiming",
+    "edition": "",
+    "name": "Apathy",
+    "firstNightReminder": "Wake Apathy to choose a player. Mark them as Delayed and do not wake them. ",
+    "otherNightReminder": "Wake Apathy to choose a player. Mark them as Delayed and do not wake them. Mark the previous player as Ready, they use their ability an additional time tonight.",
+    "firstNight": 20.0,
+    "otherNight": 4.5,
+    "team": "minion",
+    "reminders": [
+      "Delayed",
+      "Ready"
+    ],
+    "setup": false,
+    "ability": "Each night, choose a player, their ability works tomorrow instead of today.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "signal",
+        "name": "grimoire",
+        "time": "night"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/apathy_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/apathy_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "curiosity_allinthetiming",
+    "edition": "",
+    "name": "Curiosity",
+    "firstNightReminder": "Wake Curiosity and ask if they want to see the grim. If yes, show it to them. Afterwards, you may mark a player as having no ability.",
+    "otherNightReminder": "Wake Curiosity and ask if they want to see the grim. If yes, show it to them. Afterwards, you may mark a player as having no ability.",
+    "firstNight": 28.0,
+    "otherNight": 6.0,
+    "team": "minion",
+    "reminders": [
+      "No ability",
+      "No ability",
+      "No ability",
+      "No ability"
+    ],
+    "setup": true,
+    "ability": "Each night, you may look at the grim, but an outsider may lose their ability. [+1 or +2 Outsiders]",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/curiosity_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/curiosity_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "opportunity_allinthetiming",
+    "edition": "",
+    "name": "Opportunity",
+    "team": "minion",
+    "reminders": [
+      "Destoryed"
+    ],
+    "setup": false,
+    "ability": "When you die, your dead vote counts as -N votes. N is the day or night you died.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/opportunity_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/opportunity_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "wrath_allinthetiming",
+    "edition": "",
+    "name": "Wrath",
+    "otherNightReminder": "If Wrath was executed today, wake the demon, show them Wrath, and have them perform their ability twice.",
+    "otherNight": 7.0,
+    "team": "minion",
+    "reminders": [
+      "Rage"
+    ],
+    "setup": false,
+    "ability": "If you are executed, the demon acts twice tonight.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/wrath_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/wrath_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "charisma_allinthetiming",
+    "edition": "",
+    "name": "Charisma",
+    "firstNightReminder": "Mark Charisma with '2 left'. Wake them and ask if they wish to drunk a character. If yes, mark the target as poisoned and expend a use.",
+    "otherNightReminder": "If they still have their ability, wake them and ask if they wish to drunk a character. If yes, mark the target as poisoned and expend a use. If no, they regain a use.",
+    "firstNight": 19.0,
+    "otherNight": 3.0,
+    "team": "minion",
+    "reminders": [
+      "2 Left",
+      "1 Left",
+      "No ability.",
+      "Drunk"
+    ],
+    "setup": false,
+    "ability": "Twice per game, at night, you may choose a character, they are poisoned until dusk. If you choose no one, refresh a use of your ability.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/charisma_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/charisma_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "hunger_allinthetiming",
+    "edition": "",
+    "name": "Hunger",
+    "firstNightReminder": "Wake hunger to choose an alive player, mark them as dying tomorrow.",
+    "otherNightReminder": "If the marked player is alive, they die. If they are already dead, two good players die. Wake hunger to choose an alive player, mark them as dying tomorrow.",
+    "firstNight": 26.0,
+    "otherNight": 8.0,
+    "team": "demon",
+    "reminders": [
+      "Dying tomorrow",
+      "Dead",
+      "Dead"
+    ],
+    "setup": true,
+    "ability": "Each night, choose an alive player. Tomorrow night, they die. If they are dead, two good players die instead. [-1 Outsider]",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/hunger_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/hunger_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "desire_allinthetiming",
+    "edition": "",
+    "name": "Desire",
+    "otherNightReminder": "Wake desire to choose a player. They die. If desire hasn't chosen 3 players yet, they may instead pick 3. Choose any of them to turn evil and kill the rest.",
+    "otherNight": 9.0,
+    "team": "demon",
+    "reminders": [
+      "Dead",
+      "Dead",
+      "Dead",
+      "Evil",
+      "Evil",
+      "Evil"
+    ],
+    "setup": true,
+    "ability": "Each night*, choose a player, they die. Once per game, choose 3, some of them turn evil while the others dies. [-1 Minion]",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/desire_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/desire_allinthetiming/1.png"
+    ]
+  },
+  {
+    "id": "greed_allinthetiming",
+    "edition": "",
+    "name": "Greed",
+    "otherNightReminder": "Wake greed to choose a player, they die. If the chosen player is a minion, mark them as sacrificed. If a minion was sacrificed a prior night, the chosen player is drunk before dying.",
+    "otherNight": 10.0,
+    "team": "demon",
+    "reminders": [
+      "Sacrificed",
+      "Sacrificed",
+      "Sacrificed",
+      "Double Kill Used"
+    ],
+    "setup": false,
+    "ability": "Each night*, choose a player, they die. Once per game, you may choose two players, they die. If you kill a minion, refresh this ability.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/greed_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/greed_allinthetiming/1.png"
+    ]
+  }
+]
