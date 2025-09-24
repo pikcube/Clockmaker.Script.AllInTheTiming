@@ -7,10 +7,10 @@
 * Foresight: On Night 4, learn 4 players who aren't the demon.
 * Judgment: Each night, learn a player. If executed tomorrow, their team loses.
 * Totality: Each night, choose a player. When you die, wake and learn how many chosen players are evil.
+* Herbalist: Each night choose a player. Good players are drunk today, but are sober and healthy tomorrow.
 * Registrar: Each night, choose a minion character, learn which player has their ability. If no one, learn false information. [+1 Minion]
-* Herbalist: Each night* choose a player. Good players are drunk today, but are sober and healthy tomorrow.
 * Coach: Each night* choose two players (not yourself). They can't die tonight if both are sober and healthy.
-* Maestro: Each night*, choose a player, learn a player who wakes before them but after you. If no one, learn false information. [You wake first]
+* Maestro: Each night*, choose a player, learn a player who wakes before them but after you. If no one, learn false information.
 * Silencer: Once per game, at night, choose an alive player. A townsfolk, if chosen, permanently loses their ability.
 * Flash: If you die at night, learn one in play character for every two living players.
 * Writer: The 1st time your team would lose, don't. That night, learn why.
@@ -20,7 +20,7 @@
 * Despair: When only 3 players live, including the demon, evil wins, even if you're dead.
 * Apathy: Each night, choose a player, their ability works tomorrow instead of today.
 * Curiosity: Each night, you may look at the grim, but an outsider may lose their ability. [+1 or +2 Outsiders]
-* Opportunity: When you die, your dead vote counts as -N votes. N is the day or night you died.
+* Opportunity: If you nominated an evil player yesterday, choose two players, they swap characters
 * Wrath: If you are executed, the demon acts twice tonight.
 * Charisma: Twice per game, at night, you may choose a character, they are poisoned until dusk. If you choose no one, refresh a use of your ability.
 * Hunger: Each night, choose an alive player. Tomorrow night, they die. If they are dead, two good players die instead. [-1 Outsider]
