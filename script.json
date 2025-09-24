@@ -2,7 +2,51 @@
   {
     "id": "_meta",
     "name": "All In The Timing",
-    "author": "Pikcube"
+    "author": "Pikcube",
+    "firstNight": [
+      "dusk",
+      "minioninfo",
+      "demoninfo",
+      "charisma_allinthetiming",
+      "herbalist_allinthetiming",
+      "apathy_allinthetiming",
+      "hunger_allinthetiming",
+      "curiosity_allinthetiming",
+      "nightmare_allinthetiming",
+      "totality_allinthetiming",
+      "registrar_allinthetiming",
+      "judgment_allinthetiming",
+      "silencer_allinthetiming",
+      "unity_allinthetiming",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "maestro_allinthetiming",
+      "charisma_allinthetiming",
+      "herbalist_allinthetiming",
+      "apathy_allinthetiming",
+      "coach_allinthetiming",
+      "curiosity_allinthetiming",
+      "wrath_allinthetiming",
+      "hunger_allinthetiming",
+      "desire_allinthetiming",
+      "greed_allinthetiming",
+      "couple_allinthetiming",
+      "denial_allinthetiming",
+      "despair_allinthetiming",
+      "silencer_allinthetiming",
+      "nightmare_allinthetiming",
+      "flash_allinthetiming",
+      "judgment_allinthetiming",
+      "totality_allinthetiming",
+      "trigon_allinthetiming",
+      "foresight_allinthetiming",
+      "registrar_allinthetiming",
+      "writer_allinthetiming",
+      "dawn",
+      "opportunity_allinthetiming"
+    ]
   },
   {
     "id": "unity_allinthetiming",
@@ -150,6 +194,28 @@
     ]
   },
   {
+    "id": "herbalist_allinthetiming",
+    "edition": "",
+    "name": "Herbalist",
+    "firstNightReminder": "Wake the Herbalist to choose a player. If they are good, mark them as drunk. Mark the previously chosen player as herbed.",
+    "otherNightReminder": "Wake the Herbalist to choose a player. If they are good, mark them as drunk. Mark the previously chosen player as herbed.",
+    "otherNight": 4.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Drunk",
+      "Herbed"
+    ],
+    "setup": false,
+    "ability": "Each night choose a player. Good players are drunk today, but are sober and healthy tomorrow.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/herbalist_allinthetiming/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/herbalist_allinthetiming/1.png"
+    ]
+  },
+  {
     "id": "registrar_allinthetiming",
     "edition": "",
     "name": "Registrar",
@@ -173,27 +239,6 @@
     "image": [
       "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/registrar_allinthetiming/0.png",
       "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/registrar_allinthetiming/1.png"
-    ]
-  },
-  {
-    "id": "herbalist_allinthetiming",
-    "edition": "",
-    "name": "Herbalist",
-    "otherNightReminder": "Wake the Herbalist to choose a player. If they are good, mark them as drunk. Mark the previously chosen player as herbed.",
-    "otherNight": 4.0,
-    "team": "townsfolk",
-    "reminders": [
-      "Drunk",
-      "Herbed"
-    ],
-    "setup": false,
-    "ability": "Each night* choose a player. Good players are drunk today, but are sober and healthy tomorrow.",
-    "jinxes": [],
-    "remindersGlobal": [],
-    "special": [],
-    "image": [
-      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/herbalist_allinthetiming/0.png",
-      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/herbalist_allinthetiming/1.png"
     ]
   },
   {
@@ -225,8 +270,8 @@
     "otherNight": 2.0,
     "team": "townsfolk",
     "reminders": [],
-    "setup": true,
-    "ability": "Each night*, choose a player, learn a player who wakes before them but after you. If no one, learn false information. [You wake first]",
+    "setup": false,
+    "ability": "Each night*, choose a player, learn a player who wakes before them but after you. If no one, learn false information.",
     "jinxes": [],
     "remindersGlobal": [],
     "special": [],
@@ -308,6 +353,8 @@
     "id": "denial_allinthetiming",
     "edition": "",
     "name": "Denial",
+    "firstNightReminder": "",
+    "otherNightReminder": "If Denial would die tonight, don't mark them as dead",
     "team": "outsider",
     "reminders": [
       "Aliven't"
@@ -399,13 +446,7 @@
     "ability": "Each night, choose a player, their ability works tomorrow instead of today.",
     "jinxes": [],
     "remindersGlobal": [],
-    "special": [
-      {
-        "type": "signal",
-        "name": "grimoire",
-        "time": "night"
-      }
-    ],
+    "special": [],
     "image": [
       "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/apathy_allinthetiming/0.png",
       "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.AllInTheTiming/main/token/apathy_allinthetiming/1.png"
@@ -440,12 +481,13 @@
     "id": "opportunity_allinthetiming",
     "edition": "",
     "name": "Opportunity",
+    "otherNightReminder": "If Opportunity nominated an evil player, wake them and ask them to pick two players. Wake each of their choices and inform them of their new role",
     "team": "minion",
     "reminders": [
-      "Destoryed"
+      "Opportunity"
     ],
     "setup": false,
-    "ability": "When you die, your dead vote counts as -N votes. N is the day or night you died.",
+    "ability": "If you nominated an evil player yesterday, choose two players, they swap characters",
     "jinxes": [],
     "remindersGlobal": [],
     "special": [],
